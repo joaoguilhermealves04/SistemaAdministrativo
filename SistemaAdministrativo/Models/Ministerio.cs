@@ -11,11 +11,12 @@ namespace SistemaAdministrativo.Models
         public string Nome { get; set; }
         public string Cargo { get; set; }
         public DateTime DataOrdenacao { get; set; }
-        public  Igreja igreja{ get; set; }
+
+        public List<IgrejaMinisterio> IgrejaMinisterios { get; set; }
 
         public Ministerio()
         {
-            Id = Guid.NewGuid();
+            Id= Guid.NewGuid();
         }
     }
 }

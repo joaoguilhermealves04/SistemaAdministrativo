@@ -11,5 +11,7 @@ namespace SistemaAdministrativo.Models
         public Livro Livro { get; set; }
         public Guid CadastroId{ get; set; }
         public  Cadastro  Cadastro { get; set; }
+
+      
     }
 }

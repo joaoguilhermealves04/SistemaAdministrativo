@@ -9,11 +9,14 @@ namespace SistemaAdministrativo.Models
     {
         public Guid Id { get; set; }
         public string BairroIgreja { get; set; }
-        public Ministerio Ministerio { get; set; }
         public DateTime DatadaAbertura { get; set; }
         public List<Livro> Livros { get; set; }
         public Livro Livro { get; set; }
         public Guid IdLivro { get; set; }
+        public List<IgrejaMinisterio> IgrejaMinisterios { get; set; }
+
+
+
 
         public Igreja()
         {
